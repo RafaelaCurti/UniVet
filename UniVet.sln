@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniVet", "UniVet\UniVet.csproj", "{EF993FFE-7222-4D37-AAD7-8F801B00F299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain (regra de Negócio)", "4 - Domain (regra de Negócio)", "{79B6F2FC-D413-4D16-BEC9-CFBEF688DC26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "EntityFramework\Domain.csproj", "{A8411398-2CBD-4AF9-8ADF-112E6018D652}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra (Banco - Entity)", "5 - Infra (Banco - Entity)", "{4AE4D34E-4D5B-4AC5-AEC9-0877C378EAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 -Presentation (Front-End)", "1 -Presentation (Front-End)", "{1006E737-7E5F-416A-8D9B-9468454EE6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services (Task-API)", "2 - Services (Task-API)", "{2B080D4B-B801-4E82-ABA3-F3CCBB82DE09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application (Controller)", "3 - Application (Controller)", "{58058FA7-99A7-4803-B36D-3E24F54D7848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF993FFE-7222-4D37-AAD7-8F801B00F299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF993FFE-7222-4D37-AAD7-8F801B00F299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF993FFE-7222-4D37-AAD7-8F801B00F299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF993FFE-7222-4D37-AAD7-8F801B00F299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8411398-2CBD-4AF9-8ADF-112E6018D652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8411398-2CBD-4AF9-8ADF-112E6018D652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8411398-2CBD-4AF9-8ADF-112E6018D652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8411398-2CBD-4AF9-8ADF-112E6018D652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF993FFE-7222-4D37-AAD7-8F801B00F299} = {1006E737-7E5F-416A-8D9B-9468454EE6FE}
+		{A8411398-2CBD-4AF9-8ADF-112E6018D652} = {79B6F2FC-D413-4D16-BEC9-CFBEF688DC26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928CFDFD-1EBE-4B5A-9095-746B8D7698CD}
+	EndGlobalSection
+EndGlobal
