@@ -12,6 +12,7 @@ namespace UniVet.Controllers
         public ActionResult Index()
         {
             return View();
+
         }
         public ActionResult Cadastrar()
         {
